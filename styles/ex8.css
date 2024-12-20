@@ -1,0 +1,27 @@
+
+p {
+  font-family: Arial;
+  font-size: 18px;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.p-author {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.opacity-span { 
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: normal;
+}
+
+.post-text {
+  width: 600px;
+  margin-bottom: 15px;
+}
+
+.text-span {
+  color: rgba(0, 0, 255, 0.7);
+}
