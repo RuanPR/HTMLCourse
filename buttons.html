@@ -1,0 +1,90 @@
+<style>
+  .subs-botton {
+    background-color: rgb(207, 9, 9);
+    color: white;
+    border: none;
+    /*height: 35px;
+    width: 105px; trocar por padding*/
+    padding-top: 10px; /* com padding se eu mudar o texto o botao eh automaticamente remodelado*/
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.15s;
+    vertical-align: top;
+  }
+
+  /*pseudo-class*/
+  .subs-botton:hover { 
+    opacity: 0.7;
+  }
+
+  .subs-botton:active {
+    opacity: 0.4;
+  }
+
+  .join-button {
+    background-color: white;
+    border-color: rgb(106, 106, 224);
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(106, 106, 224);
+    /*height: 36px;
+    width: 62px;*/
+    padding-top: 9px; /* com padding se eu mudar o texto o botao eh automaticamente remodelado*/
+    padding-bottom: 9px; /* reduzir em 1 px pq a borda toma um px*/
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+    vertical-align: top;
+  }
+
+  .join-button:hover {
+    background-color: rgb(106, 106, 224);
+    color: white;
+  }
+
+  .join-button:active {
+    opacity: 0.6;
+  }
+
+  .tweet-button {
+    background-color: rgb(2, 158, 255);
+    color: white;
+    border: none;
+    /*height: 35px;
+    width: 74px; nao eh uma boa tecnica*/
+    padding-top: 10px; /* com padding se eu mudar o texto o botao eh automaticamente remodelado*/
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 17px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: box-shadow 0.15s;
+    vertical-align: top;
+  }
+
+  .tweet-button:hover {
+    box-shadow: 4px 4px 10px rgba(204, 197, 197, 0.7); /*rgba é com com opacidade*/
+  }
+
+</style>
+
+<button class="subs-botton">
+  SUBSCRIBE
+</button>
+
+<button class="join-button">
+  JOIN
+</button>
+
+<button class="tweet-button">
+  Tweet
+</button>
