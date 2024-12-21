@@ -1,0 +1,20 @@
+.google-logo {
+  width: 200px;
+  display: block;
+  margin-left: 540px;
+  margin-bottom: 15px;
+}
+
+.search-bar {
+  border: none;
+  border-radius: 30px;
+  padding-left: 12px;
+  width: 450px;
+  height: 30px;
+  margin-left: 420px;
+  box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.2);
+}
+
+.search-bar:focus {
+  outline: none;
+}

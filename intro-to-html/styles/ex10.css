@@ -1,0 +1,26 @@
+img{
+  width: 200px;
+  margin-right: 50px;
+}
+
+.img-1 {
+  border-radius: 20px;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+}
+
+.img-2 {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: left;
+}
+
+.img-3 {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: left;
+  border-radius: 100px;
+}

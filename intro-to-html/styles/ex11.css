@@ -1,0 +1,97 @@
+input {
+  padding-left: 8px;
+  margin-right: 20px;
+  margin-top: 0;
+  margin-bottom: 0;  
+}
+
+input:focus {
+  outline: none; /*tira o highligh quando clica*/
+}
+
+.search-box1 {
+  width: 145px;
+  height: 25px;
+  border-radius: 6px;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.6);
+}
+
+.search-box2 {
+  padding-left: 12px;
+  width: 350px;
+  height: 26px;
+  border-radius: 14px;
+  border: none;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  font-size: 11px;
+}
+
+.p1 {
+  margin-top: 15px;
+  margin-bottom: 4px;
+  font-size: 11px;
+  color: gray;
+}
+
+.search-box3 {
+  width: 245px;
+  height: 17px;
+  font-size: 11px;
+}
+
+.p2 {
+  color: gray;
+  font-size: 11px;
+}
+
+.agree-button {
+  color: white;
+  background-color: blue;
+  padding: 9px 96px 9px 96px;
+  border: none;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: bold;
+  transition: opacity 0.2s;
+  cursor: pointer;
+}
+
+.agree-button:hover {
+  opacity: 0.8;
+}
+
+.agree-button:active {
+  opacity: 0.5;
+}
+
+.img1 {
+  width: 26px;
+  height: 26px;
+  object-fit: cover;
+  object-position: left;
+  border: none;
+  border-radius: 15px;
+  margin-left: 30px;
+  vertical-align: middle;
+}
+
+.text1 {
+  border:none;
+}
+
+.tweet-button {
+  color: white;
+  background-color: blue;
+  border: none;
+  padding: 4px 11px 4px 11px;
+  border-radius: 17px;
+  font-size: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.tweet-button:hover {
+  opacity: 0.7;
+}

@@ -1,0 +1,29 @@
+.name-bar, .email-bar {
+  display: block;
+  color: gray;
+  border-width: 1px;
+  border-color: gray;
+  border-radius: 2px;
+  margin-bottom: 4px;
+  width: 110px;
+  font-size: 10px;
+}
+
+.name-bar:focus, .email-bar:focus {
+  outline: none;
+}
+
+.text {
+  font-size: 15px;
+  width: 190px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.yes-button {
+  vertical-align: middle;
+}
+
+.no-button {
+  vertical-align: middle;
+}
