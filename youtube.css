@@ -1,20 +1,38 @@
-.thumb-1 {
+.thumb {
   width: 300px; /*se eu setar width seta height automatico*/ 
   display: block;
+  object-fit: cover;
 }
 
 .search-bar {
+  display: block;
   font-size: 20px;
 }
 
-.video1-p1 {
+.video-preview {
+  display: inline-block;
   width: 300px;
+  vertical-align: top;
+  margin-right: 15px;
 }
 
-.video1-p2 {
-  
+.title {
+  margin-top: 0;
 }
 
-.video1-p3 {
-
+.channel-pfp {
+  width: 50px;
+  display: inline-block;
+  vertical-align: top;
 }
+
+.channel-pfp-img {
+  width: 100%;
+}
+
+.video-info {
+  width: 200px;
+  display: inline-block;
+}
+
+
