@@ -6,7 +6,7 @@
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
 }
 
-.account-img {
+.account-img2 {
   vertical-align: middle;
   width: 50px;
   height: 50px;
@@ -34,36 +34,53 @@
   border-radius: 30px;
 }
 
+
+.fb-grid {
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  column-gap: 12px;
+  align-items: center;
+}
+
 .friend-box {
-  display: inline-block;
   margin-top: 30px;
   margin-bottom: 20px;
   margin-right: 10px;
   width: 150px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
-  vertical-align: top;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4); 
 }
 
-.account-img2 {
+.account-img {
   width: 150px;
   height: 160px;
   object-fit: cover;
   object-position: left;
 }
 
-.account-img2:hover {
+.account-img:hover {
   cursor: pointer;
 }
 
 .name-p {
+  width: 130px;
   font-weight: bold;
   margin: 5px 0 4px 5px;
 }
 
+.pfp-img {
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 30px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
 .stats-mutual {
-  margin: 0 0 10px 5px;
+  margin: 0 0 10px 2px;
   font-size: 15px;
   color: gray;
+  display: inline-block;
 }
 
 .friend-button {
@@ -85,105 +102,3 @@
   opacity: 0.5;
 }
 
-.friend-box2 {
-  display: inline-block;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  margin-right: 10px;
-  width: 150px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
-  vertical-align: top;
-}
-
-.account-img3 {
-  width: 150px;
-  height: 160px;
-  object-fit: cover;
-  object-position: left;
-}
-
-.account-img3:hover {
-  cursor: pointer;
-}
-
-.name-p2 {
-  font-weight: bold;
-  margin: 5px 0 4px 5px;
-}
-
-.stats-mutual2 {
-  margin: 0 0 10px 5px;
-  font-size: 15px;
-  color: gray;
-}
-
-.friend-button2 {
-  padding: 7px 16px 7px 16px;
-  color: white;
-  background-color: rgb(65, 65, 247);
-  border: none;
-  border-radius: 3px;
-  margin: 0 0 9px 5px ;
-  transition: opacity 0.2s;
-}
-
-.friend-button2:hover {
-  opacity: 0.8;
-  cursor: pointer;
-}
-
-.friend-button2:active {
-  opacity: 0.5;
-}
-
-.friend-box3 {
-  display: inline-block;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  margin-right: 10px;
-  width: 150px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
-  vertical-align: top;
-}
-
-.account-img4 {
-  width: 150px;
-  height: 160px;
-  object-fit: cover;
-  object-position: left;
-}
-
-.account-img4:hover {
-  cursor: pointer;
-}
-
-.name-p3 {
-  width: 140px;
-  font-weight: bold;
-  margin: 5px 0 4px 5px;
-}
-
-.stats-mutual3 {
-  margin: 0 0 10px 5px;
-  font-size: 15px;
-  color: gray;
-}
-
-.friend-button3 {
-  padding: 7px 16px 7px 16px;
-  color: white;
-  background-color: rgb(65, 65, 247);
-  border: none;
-  border-radius: 3px;
-  margin: 0 0 9px 5px ;
-  transition: opacity 0.2s;
-}
-
-.friend-button3:hover {
-  opacity: 0.8;
-  cursor: pointer;
-}
-
-.friend-button3:active {
-  opacity: 0.5;
-}
