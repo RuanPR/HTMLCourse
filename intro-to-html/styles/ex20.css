@@ -1,0 +1,54 @@
+p {
+  font-family: Roboto;
+}
+
+.header-bar {
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-section {
+  width: 50px;
+}
+
+.home-p {
+  font-size: 15px;
+  color: white;
+  margin-left: 20px;
+}
+
+.search-bar-div {
+  flex: 1;
+  margin-left: 100px;
+}
+
+.search-bar {
+  border: none;
+  border-radius: 20px;
+  padding: 6px 0 6px 8px;
+  width: 490px;
+}
+
+.search-bar:focus {
+  outline: none;
+}
+
+.download-section {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  justify-content: end;
+}
+
+.download-button {
+  color: white;
+  background-color: transparent;
+  border-color: white;
+  border-width: 1px;
+  padding: 8px 2px 8px 2px;
+  margin-right: 10px;
+  width: 100px;
+}

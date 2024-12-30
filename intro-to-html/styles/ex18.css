@@ -1,0 +1,49 @@
+.notification-box {
+  width: 200px;
+  height: 76px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+  padding: 1px;
+}
+
+.notification-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 200px;
+  height: 20px;
+  margin-top: 4px;
+  align-items: center;
+} 
+
+.p-section {
+  flex: 1;
+}
+
+.p1 {
+  font-family: Arial;
+  margin: 0;
+  font-size: 12px;
+  margin-left: 8px;
+}
+
+.button-section {
+  display: flex;
+  flex-direction: row;
+  width: 40px;
+  justify-content: end;
+}
+
+.number {
+  font-family: Arial;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(55, 55, 255);
+  color: white;
+  padding: 2px 8px 2px 8px;
+  font-weight: bold;
+  font-size: 12px;
+  margin-right: 4px;
+}
+

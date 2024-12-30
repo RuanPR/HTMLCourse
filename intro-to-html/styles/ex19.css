@@ -1,0 +1,62 @@
+.profile-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border: none;
+  border-radius: 100%;
+  transition: opacity 0.2s;
+}
+
+img:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.pfp1 {
+  object-position: left;
+}
+
+p {
+  font-family: Roboto;
+  margin: 2px 0 0 0;
+}
+
+.profile-text {
+  width: 160px;
+  margin-left: 10px;
+}
+
+.profile-name {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.profile-description {
+  font-size: 12px;
+  color: gray;
+}
+
+.profile-status {
+  font-size: 10px;
+  color: gray;
+}
+
+.follow-button {
+  color: white;
+  background-color: rgb(66, 90, 226);
+  border: none;
+  border-radius: 4px;
+  padding: 7px 11px 7px 11px;
+  transition: opacity 0.2s;
+}
+
+.follow-button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
