@@ -1,0 +1,72 @@
+body {
+  background-color: cadetblue;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 54px;
+  background-color: white;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.pfp {
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 100%;
+  margin-left: 100px;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.pfp:hover {
+  cursor: pointer;
+  transform: scale(1.8);
+}
+
+.profile-name {
+  flex: 1;
+  font-family: Roboto, Arial;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.add-button {
+  width: 100px;
+  padding: 10px 8px 10px 8px;
+  border: none;
+  color: white;
+  background-color: rgb(64, 64, 240);
+  border-radius: 5px;
+  font-family: Roboto;
+  margin-right: 8px;
+  font-weight: bold;
+  transition: opacity 0.2s;
+}
+
+.add-button:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.message-button {
+  width: 100px;
+  padding: 10px 8px 10px 8px;
+  border: none;
+  background-color: rgb(189, 189, 189);
+  font-family: Roboto;
+  border-radius: 5px;
+  margin-right: 70px;
+  font-weight: bold;
+  transition: opacity 0.2s;
+}
+
+.message-button:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
