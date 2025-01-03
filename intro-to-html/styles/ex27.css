@@ -1,0 +1,46 @@
+.shop {
+  width: 300px;
+  position: relative;
+}
+
+.discount {
+  font-size: 13px;
+  font-family: Roboto, Arial;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  padding: 5px 9px 5px 9px;
+  position: absolute;
+  right: 0;
+  top: 7px;
+}
+
+.item {
+  width: 300px;
+  display: inline-block;
+}
+
+.overlay {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background-color: rgba(194, 194, 194, 0.637);
+}
+
+.add-cart {
+  font-family: Roboto, Arial;
+  width: 100px;
+  height: 34px;
+  border-width: 1px;
+  border-style: solid;
+  margin: auto;
+  transition: opacity 0.2s;
+}
+
+.add-cart:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}

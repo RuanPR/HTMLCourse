@@ -5,8 +5,8 @@
   left: 0;
   bottom: 0;
   top: 55px;
-  padding-top: 20px;
-  padding-bottom: 180px;
+  z-index: 200;
+  padding-top: 5px;
 }
 
 .sidebar-icons {
@@ -17,26 +17,26 @@
   
 }
 
-.home-img {
-  height: 24px;
+.sidebar-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 74px;
+  width: 72px;
 }
 
-.explore-img {
-  height: 24px;
+.sidebar-box:hover {
+  cursor: pointer;
+  background-color: rgb(231, 231, 231);
 }
 
-.subscriptions-img {
+.sidebar-icons img {
   height: 24px;
+  margin-bottom: 7px;
 }
 
-.originals-img {
-  height: 24px;
-}
-
-.music-img {
-  height: 24px;
-}
-
-.library-img {
-  height: 24px;
+.sidebar-box div {
+  font-family: Roboto, Arial;
+  font-size: 10px;
 }
